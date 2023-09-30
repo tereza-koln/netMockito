@@ -30,8 +30,6 @@ public class MovieManager {
         int resultLength;
         if (movies.length < limit) {
             resultLength = movies.length;
-        } else if (movies.length > limit) {
-            resultLength = movies.length;
         } else {
             resultLength = limit;
         }
